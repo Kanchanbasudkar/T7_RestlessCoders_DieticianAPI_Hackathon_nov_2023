@@ -51,6 +51,7 @@ public class GetAllPatients {
 	public void user_sends_https_request_to_get_all_patients() {
 		response = request.when().log().all()
 				.get(Endpoints.GET_ALL_PATIENTS_ENDPOINT);
+
 		
 	}
 

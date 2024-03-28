@@ -47,6 +47,7 @@ public class UserLogin /* extends BaseClass */{
 					+ "  \"userLoginEmail\": \""+loginEmail+"\"\n"
 
 					+ "}";
+
 	}
 
 	@When("The user makes a login request using POST method")
